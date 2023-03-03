@@ -18,5 +18,4 @@ React Bootstrap
 Credits
 The product images used in this application and the product data is from Mi Store. The design and code were created by ME.
 
-
-
+![localhost_3001_ (1)](https://user-images.githubusercontent.com/98905825/222710490-f929302b-0089-4da3-abcd-e13e51d4a715.jpg)
