@@ -4,10 +4,11 @@
     padding-bottom: 2vmax;
     cursor: pointer;
     transition: all 0.5s;
+    width: 45%;
 }
 
 .ProductReviewCard img {
-    width: 450px;
+    width: 100%;
 }
 
 .ProductReviewCard:hover {
@@ -31,4 +32,23 @@
 .ProductReviewCard b {
     font-size: 1vmax;
     color: orangered;
+}
+
+@media (max-width:768px) {
+    .ProductReviews {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:768px) {
+    .ProductReviewCard img {
+        width: 300px;
+    }
+}
+
+@media (max-width:426px) {
+    .ProductReviewCard img {
+        width: 90%;
+    }
 }

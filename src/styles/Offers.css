@@ -3,16 +3,25 @@
   justify-content: center;
   align-items: center;
   padding: 1vmax;
+  gap: 20px;
 }
+
+.offersSection a {
+  width: 30%;
+}
+
 
 .offersSection img {
-  margin: 0 1vmax;
   transition: all 0.5s;
-  width: 300px;
+  width: 100%;
 }
-
-
 
 .offersSection img .offersSection img:hover {
   box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+}
+
+@media (max-width:768px) {
+  .offersSection {
+    flex-wrap: wrap;
+  }
 }

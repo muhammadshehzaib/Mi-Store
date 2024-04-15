@@ -10,6 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 300px;
+    justify-content: center;
 }
 
 .starProduct div:first-child img {
@@ -23,4 +24,41 @@
 
 .starProduct img:hover {
     box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+}
+
+@media (max-width:768px) {
+    .starProduct {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:768px) {
+    .starProduct div:first-child img {
+        width: 300px;
+    }
+}
+
+@media (min-width:1441px) {
+    .starProduct div:first-child {
+        width: 45%;
+    }
+
+    .starProduct div:first-child img {
+        width: 100%;
+    }
+
+    .starProduct div:nth-child(2) {
+        width: 30%;
+    }
+
+    .starProduct div:nth-child(2) a {
+        width: 100%;
+    }
+
+    .starProduct div:nth-child(2) img {
+        width: 100%;
+    }
+
+
+
 }
